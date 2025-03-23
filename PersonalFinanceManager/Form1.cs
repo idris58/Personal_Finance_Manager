@@ -25,7 +25,7 @@ namespace PersonalFinanceManager
 
         private void LoadTransactions()
         {
-            dgvTransactions.DataSource = DatabaseHelper.GetTransactions();
+            dgRecentTransactions.DataSource = DatabaseHelper.GetTransactions();
         }
         private void btnAddTransaction_Click(object sender, EventArgs e)
         {
@@ -43,9 +43,9 @@ namespace PersonalFinanceManager
 
         private void btnDeleteTransaction_Click(object sender, EventArgs e)
         {
-            if (dgvTransactions.SelectedRows.Count > 0)
+            if (dgRecentTransactions.SelectedRows.Count > 0)
             {
-                int transactionId = Convert.ToInt32(dgvTransactions.SelectedRows[0].Cells["Id"].Value);
+                int transactionId = Convert.ToInt32(dgRecentTransactions.SelectedRows[0].Cells["Id"].Value);
 
                 var confirmResult = MessageBox.Show("Are you sure you want to delete this transaction?", "Confirm Delete", MessageBoxButtons.YesNo);
                 if (confirmResult == DialogResult.Yes)
@@ -90,14 +90,14 @@ namespace PersonalFinanceManager
 
         private void btnEditTransaction_Click(object sender, EventArgs e)
         {
-            if (dgvTransactions.SelectedRows.Count > 0)
+            if (dgRecentTransactions.SelectedRows.Count > 0)
             {
-                int transactionId = Convert.ToInt32(dgvTransactions.SelectedRows[0].Cells["Id"].Value);
-                string date = dgvTransactions.SelectedRows[0].Cells["Date"].Value.ToString();
-                string category = dgvTransactions.SelectedRows[0].Cells["Category"].Value.ToString();
-                double amount = Convert.ToDouble(dgvTransactions.SelectedRows[0].Cells["Amount"].Value);
-                string type = dgvTransactions.SelectedRows[0].Cells["Type"].Value.ToString();
-                string description = dgvTransactions.SelectedRows[0].Cells["Description"].Value.ToString();
+                int transactionId = Convert.ToInt32(dgRecentTransactions.SelectedRows[0].Cells["Id"].Value);
+                string date = dgRecentTransactions.SelectedRows[0].Cells["Date"].Value.ToString();
+                string category = dgRecentTransactions.SelectedRows[0].Cells["Category"].Value.ToString();
+                double amount = Convert.ToDouble(dgRecentTransactions.SelectedRows[0].Cells["Amount"].Value);
+                string type = dgRecentTransactions.SelectedRows[0].Cells["Type"].Value.ToString();
+                string description = dgRecentTransactions.SelectedRows[0].Cells["Description"].Value.ToString();
 
                 // Populate input fields with existing values
                 dtpDate.Value = DateTime.Parse(date);

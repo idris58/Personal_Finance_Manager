@@ -46,79 +46,79 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(58, 148);
+            this.label2.Location = new System.Drawing.Point(133, 91);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(49, 13);
-            this.label2.TabIndex = 23;
+            this.label2.TabIndex = 47;
             this.label2.Text = "Catagory";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(64, 102);
+            this.label1.Location = new System.Drawing.Point(139, 45);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(43, 13);
-            this.label1.TabIndex = 22;
+            this.label1.TabIndex = 46;
             this.label1.Text = "Amount";
             // 
             // btnDeleteTransaction
             // 
-            this.btnDeleteTransaction.Location = new System.Drawing.Point(595, 370);
+            this.btnDeleteTransaction.Location = new System.Drawing.Point(670, 313);
             this.btnDeleteTransaction.Name = "btnDeleteTransaction";
             this.btnDeleteTransaction.Size = new System.Drawing.Size(116, 23);
-            this.btnDeleteTransaction.TabIndex = 21;
+            this.btnDeleteTransaction.TabIndex = 45;
             this.btnDeleteTransaction.Text = "Delete Transaction";
             this.btnDeleteTransaction.UseVisualStyleBackColor = true;
             // 
             // btnEditTransaction
             // 
-            this.btnEditTransaction.Location = new System.Drawing.Point(465, 370);
+            this.btnEditTransaction.Location = new System.Drawing.Point(540, 313);
             this.btnEditTransaction.Name = "btnEditTransaction";
             this.btnEditTransaction.Size = new System.Drawing.Size(104, 23);
-            this.btnEditTransaction.TabIndex = 20;
+            this.btnEditTransaction.TabIndex = 44;
             this.btnEditTransaction.Text = "Edit Transaction";
             this.btnEditTransaction.UseVisualStyleBackColor = true;
             // 
             // dgvTransactions
             // 
             this.dgvTransactions.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvTransactions.Location = new System.Drawing.Point(307, 71);
+            this.dgvTransactions.Location = new System.Drawing.Point(421, 24);
             this.dgvTransactions.Name = "dgvTransactions";
             this.dgvTransactions.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvTransactions.Size = new System.Drawing.Size(585, 279);
-            this.dgvTransactions.TabIndex = 19;
+            this.dgvTransactions.Size = new System.Drawing.Size(400, 279);
+            this.dgvTransactions.TabIndex = 43;
             // 
             // btnAddTransaction
             // 
-            this.btnAddTransaction.Location = new System.Drawing.Point(117, 349);
+            this.btnAddTransaction.Location = new System.Drawing.Point(192, 292);
             this.btnAddTransaction.Name = "btnAddTransaction";
             this.btnAddTransaction.Size = new System.Drawing.Size(116, 23);
-            this.btnAddTransaction.TabIndex = 18;
+            this.btnAddTransaction.TabIndex = 42;
             this.btnAddTransaction.Text = "Add Transaction";
             this.btnAddTransaction.UseVisualStyleBackColor = true;
             // 
             // txtDescription
             // 
-            this.txtDescription.Location = new System.Drawing.Point(77, 249);
+            this.txtDescription.Location = new System.Drawing.Point(152, 192);
             this.txtDescription.Multiline = true;
             this.txtDescription.Name = "txtDescription";
             this.txtDescription.Size = new System.Drawing.Size(194, 84);
-            this.txtDescription.TabIndex = 17;
+            this.txtDescription.TabIndex = 41;
             // 
             // dtpDate
             // 
-            this.dtpDate.Location = new System.Drawing.Point(77, 223);
+            this.dtpDate.Location = new System.Drawing.Point(152, 166);
             this.dtpDate.Name = "dtpDate";
             this.dtpDate.Size = new System.Drawing.Size(200, 20);
-            this.dtpDate.TabIndex = 16;
+            this.dtpDate.TabIndex = 40;
             // 
             // rdoExpense
             // 
             this.rdoExpense.AutoSize = true;
-            this.rdoExpense.Location = new System.Drawing.Point(193, 191);
+            this.rdoExpense.Location = new System.Drawing.Point(268, 134);
             this.rdoExpense.Name = "rdoExpense";
             this.rdoExpense.Size = new System.Drawing.Size(66, 17);
-            this.rdoExpense.TabIndex = 15;
+            this.rdoExpense.TabIndex = 39;
             this.rdoExpense.TabStop = true;
             this.rdoExpense.Text = "Expense";
             this.rdoExpense.UseVisualStyleBackColor = true;
@@ -126,10 +126,10 @@
             // rdoIncome
             // 
             this.rdoIncome.AutoSize = true;
-            this.rdoIncome.Location = new System.Drawing.Point(102, 191);
+            this.rdoIncome.Location = new System.Drawing.Point(177, 134);
             this.rdoIncome.Name = "rdoIncome";
             this.rdoIncome.Size = new System.Drawing.Size(60, 17);
-            this.rdoIncome.TabIndex = 14;
+            this.rdoIncome.TabIndex = 38;
             this.rdoIncome.TabStop = true;
             this.rdoIncome.Text = "Income";
             this.rdoIncome.UseVisualStyleBackColor = true;
@@ -137,17 +137,17 @@
             // cmbCategory
             // 
             this.cmbCategory.FormattingEnabled = true;
-            this.cmbCategory.Location = new System.Drawing.Point(117, 144);
+            this.cmbCategory.Location = new System.Drawing.Point(192, 87);
             this.cmbCategory.Name = "cmbCategory";
             this.cmbCategory.Size = new System.Drawing.Size(133, 21);
-            this.cmbCategory.TabIndex = 13;
+            this.cmbCategory.TabIndex = 37;
             // 
             // txtAmount
             // 
-            this.txtAmount.Location = new System.Drawing.Point(117, 97);
+            this.txtAmount.Location = new System.Drawing.Point(192, 40);
             this.txtAmount.Name = "txtAmount";
             this.txtAmount.Size = new System.Drawing.Size(133, 20);
-            this.txtAmount.TabIndex = 12;
+            this.txtAmount.TabIndex = 36;
             // 
             // Form2
             // 
